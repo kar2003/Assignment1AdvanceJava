@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.util.Objects;
 
-public class MilkPriceApplication extends Application {
+public class  MilkPriceApplication extends Application {
     public static void main(String[] args) {
         launch(args);
     }

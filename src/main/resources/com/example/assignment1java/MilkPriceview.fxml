@@ -4,8 +4,10 @@
 <?import javafx.scene.chart.BarChart?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.event.ActionEvent?>
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment1java.MilkPriceController">
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment1java.MilkPriceController" stylesheets="@styles.css">
   <center>
     <BarChart fx:id="barChart">
       <xAxis>
@@ -15,5 +17,14 @@
         <NumberAxis label="Milk Price"/>
       </yAxis>
     </BarChart>
+<!--    <BorderPane xmlns="http://javafx.com/javafx"-->
+<!--                xmlns:fx="http://javafx.com/fxml"-->
+<!--                fx:controller="com.example.assignment1java.MilkPriceController">-->
+<!--      &lt;!&ndash; Other FXML content &ndash;&gt;-->
+<!--      <center>-->
+<!--        <Button text="Click Me" onAction="#handleButtonClick" />-->
+<!--      </center>-->
+<!--    </BorderPane>-->
+
   </center>
 </BorderPane>

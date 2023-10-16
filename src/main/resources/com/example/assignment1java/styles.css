@@ -1,0 +1,25 @@
+/* Style the BarChart */
+#barChart {
+    -fx-background-color: #f2f2f2; /* Background color for the BarChart */
+}
+
+/* Style the axes labels */
+#barChart .axis-label {
+    -fx-font-size: 14px; /* Font size for axis labels */
+    -fx-font-family: "Arial"; /* Font family (change to the desired font family) */
+    -fx-font-style: bold; /* Font style (italic, normal, etc.) */
+    -fx-text-fill: blue; /* Font color (white) */
+}
+
+/* Style the series data bars */
+#barChart .data-bar {
+    -fx-bar-fill: #3498db; /* Color of the bars */
+}
+
+/* Style the legend */
+#barChart .chart-legend {
+    -fx-background-color: #ffffff; /* Background color of the legend */
+    -fx-font-size: 14px; /* Font size of the legend */
+    -fx-text-fill: white; /* Font color (white) */
+}
+
